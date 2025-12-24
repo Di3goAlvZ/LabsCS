@@ -24,7 +24,7 @@ A lo largo de los laboratorios se utilizan herramientas comunes en pentesting, e
 - Medusa
 - Netcat
 - BurpSuite
-- WhireShark
+- WireShark
 - Etc.
 
 ## 💻 Plataforma de Práctica
