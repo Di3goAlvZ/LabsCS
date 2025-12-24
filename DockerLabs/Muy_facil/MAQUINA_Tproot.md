@@ -2,47 +2,47 @@
 
 Comenzamos haciendo un escaneo de la ip victima 
 
+![image alt](https://github.com/Di3goAlvZ/LabsCS/blob/main/images/ss24.png?raw=true)
 
 podemos ver que tiene el puerto 21 y el 80 abiertos, por lo que verifico el puerto 80 y tiene un servidor apache
 
+![image alt](https://github.com/Di3goAlvZ/LabsCS/blob/main/images/ss25.png?raw=true)
 
-
+------------------------------------------
 
 Realice una busqueda de vsftpd 2.3.4 y encuentro que la vulnerabilidad es un backdoor que se encuentra en el puerto 6200, en esta version esta el protocolo tcp
 
+![image alt](https://github.com/Di3goAlvZ/LabsCS/blob/main/images/ss26.png?raw=true)
 
-
-
-
-
-
-
-
+------------------------------------------
 
 Ahora me conecto a FTP usando el usuario “user:)” y usando cualquier contraseña, esto para acticar el backdoor y abrir el puerto 6200
 
+![image alt](https://github.com/Di3goAlvZ/LabsCS/blob/main/images/ss27.png?raw=true)
 
+------------------------------------------
 
 activado el backdoor, me conecto al puerto 6200 con netcat
 podemos ver que somos root, pero en este  laboratorio debemos buscar una flag
 
+![image alt](https://github.com/Di3goAlvZ/LabsCS/blob/main/images/ss28.png?raw=true)
 
+------------------------------------------
 
+Me moví entre directorios para buscar a flag y la encontramos en el fichero root
 
-Me moví entre directorios para buscar a flag y la encontramos en el  fichero root
+![image alt](https://github.com/Di3goAlvZ/LabsCS/blob/main/images/ss29.png?raw=true)
 
-
+------------------------------------------
 
 Y como podemos ver la flag está hasheada:
 
+![image alt](https://github.com/Di3goAlvZ/LabsCS/blob/main/images/ss30.png?raw=true)
 
 
 Luego de intentar descifrarla y no tener resultados positivos damos por hecho que aqui terminamos la resolución de esta máquina.
 
-
-
-
-
+------------------------------------------
 
 
 
